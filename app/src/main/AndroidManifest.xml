@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UndercoverLibrary">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Dasboard"
             android:exported="false" />
         <activity

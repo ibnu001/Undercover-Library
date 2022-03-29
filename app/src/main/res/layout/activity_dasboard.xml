@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".Dasboard">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_undercover_lib_full" />
+
 </RelativeLayout>
