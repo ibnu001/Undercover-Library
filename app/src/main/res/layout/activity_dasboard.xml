@@ -7,6 +7,15 @@
     tools:context=".Dasboard">
 
     <ImageView
+        android:id="@+id/ic_logo_1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_undercover_lib_full" />
+
+    <ImageView
+        android:layout_below="@+id/ic_logo_1"
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_gravity="center"
