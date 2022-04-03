@@ -7,11 +7,12 @@
     android:background="@color/antiFlashWhite"
     tools:context=".Dasboard">
 
+    <!-- bar atas -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/bg_shape_bar_atas"
-        android:elevation="10dp">
+        android:elevation="20dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -31,9 +32,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_centerVertical="true"
+                android:layout_marginVertical="8dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginVertical="8dp"
                 android:layout_toLeftOf="@+id/ll_notif_pp"
                 android:layout_toRightOf="@+id/ib_db_filter"
                 android:background="@drawable/bg_shape_search"
@@ -73,4 +74,94 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_shape_bar_bawah"
+        android:elevation="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- home -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_round_home_24"
+                    android:backgroundTint="@color/japaneseIndigo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Home"
+                    android:textAlignment="center"
+                    android:textColor="@color/japaneseIndigo" />
+            </LinearLayout>
+
+            <!-- borrow -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_round_library_books_24"
+                    android:backgroundTint="@color/japaneseIndigo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Borrow"
+                    android:textAlignment="center"
+                    android:textColor="@color/japaneseIndigo" />
+            </LinearLayout>
+
+            <!-- bookmark -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_round_bookmark_border_24"
+                    android:backgroundTint="@color/japaneseIndigo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Bookmark"
+                    android:textAlignment="center"
+                    android:textColor="@color/japaneseIndigo" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 </RelativeLayout>
