@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProject/Undercover-Library/app/src/main/res/layout/activity_dasboard.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProject/Undercover-Library/app/src/main/res/layout/activity_sign_in.xml" value="0.29322916666666665" />
+        <entry key="..\:/AndroidStudioProject/Undercover-Library/app/src/main/res/layout/activity_splash_screen.xml" value="0.2887179487179487" />
         <entry key="..\:/AndroidStudioProject/UndercoverLibrary/app/src/main/res/layout/activity_dasboard.xml" value="0.23201754385964912" />
         <entry key="..\:/AndroidStudioProject/UndercoverLibrary/app/src/main/res/layout/activity_main.xml" value="0.2469298245614035" />
         <entry key="..\:/AndroidStudioProject/UndercoverLibrary/app/src/main/res/layout/activity_sign_in.xml" value="0.2425438596491228" />
